@@ -1,0 +1,38 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+
+}
+h1,h2{
+    color: #2c3e50;
+}
+.text-highlight{
+    color: orange;
+    font-weight: bold ;
+}
+ul{
+    list-style: none;
+
+}
+.menu-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.menu-link:hover{color: orange;}
+#offres{
+    background-color: #f4f9ff;
+
+}
+.voyage-card{
+    border: #ccc solid 1px;
+}
+img{
+    border: orange 3px;
+}
+table{
+    border: solid;
+}
+thead{background-color: blue;
+color: white;}
