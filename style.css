@@ -2,7 +2,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
-
+    background-image:url("fond.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment:fixed;
 }
 h1,h2{
     color: #2c3e50;
@@ -36,3 +39,45 @@ table{
 }
 thead{background-color: blue;
 color: white;}
+main p{
+    text-align:justify;
+    line-height:150%;
+    font-style:italic;
+
+}
+h1{
+    text-transform:uppercase ;
+    letter-spacing: 2px;
+
+}
+.subtitle{
+    
+    word-spacing: 0.5em;
+
+    
+}
+footer p{
+    font-variant:small-caps;
+
+}
+.text-highlight{
+    background-color:yellow;
+
+}
+.txt-gras{
+    background-color:yellow;
+    
+}
+table span{
+    vertical-align: super;
+}
+.promo-flash{
+    border-style:double;
+    border-width: thick;
+    border-color: orange;
+
+}
+.table-tarifs{
+    text-decoration: underline overline;
+}
+

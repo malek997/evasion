@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agence Évasion - Nos Destinations</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div id="logo-container">
+            <img src="images/agence-evasion-logo.png" alt="Logo de l'agence Évasion">
+        </div>
+
+        <h1>Agence Évasion</h1>
+        <p class="subtitle">Voyagez, découvrez et vivez de nouvelles aventures !</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" class="menu-link">Accueil</a>
+            </li>
+
+            <li>
+                <a href="destinations.html" class="menu-link">
+                    Nos Destinations
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="menu-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main>
+
+        <!-- Exercice 2 : Tableau comparatif -->
+        <h2>Comparatif des vols secs</h2>
+
+        <table class="table-tarifs">
+
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>Durée du vol</th>
+                    <th>Éscale</th>
+                    <th>Prix de base</th>
+                    <th>Visa</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Paris</td>
+                    <td>2h30</td>
+                    <td>Direct</td>
+                    <td>150 <span>DT</span></td>
+                    <td>Non requis</td>
+                </tr>
+
+                <tr>
+                    <td>New York</td>
+                    <td>9h00</td>
+                    <td>1 escale</td>
+                    <td>2500 <span>DT</span></td>
+                    <td rowspan="2">Non requis</td>
+                </tr>
+
+                <tr>
+                    <td>Tokyo</td>
+                    <td>14h00</td>
+                    <td>1 escale</td>
+                    <td>3200 <span>DT</span></td>
+                </tr>
+
+            </tbody>
+
+            <!-- Bonus : pied du tableau -->
+            <tfoot>
+                <tr>
+                    <td colspan="3">Prix moyen constaté</td>
+                    <td>1950 <span>DT</span></td>
+                    <td>-</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+
+        <!-- Exercice 5 : Services -->
+        <div class="services-container">
+
+            <div class="service-item">
+                Wifi Gratuit
+            </div>
+
+            <div class="service-item">
+                Bagage Inclus
+            </div>
+
+            <div class="service-item">
+                Repas à bord
+            </div>
+
+        </div>
+
+
+        <!-- Exercice 3 et 4 : Promotion -->
+        <div id="promo-flash">
+
+            <h3>Promo : Maldives</h3>
+
+            <img src="images/maldives.jpg" alt="Paysage des Maldives">
+
+            <p>
+                Voyage <span class="txt-gras">tout inclus</span>
+                à <span class="txt-rouge">-50%</span> pour les couples.
+            </p>
+
+            <a href="#" class="btn-action">
+                Réserver maintenant
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- Pied de page -->
+    <footer>
+
+        <p>
+            &copy; 2024 Agence Évasion - Tous droits réservés
+        </p>
+
+        <p>
+            Contact :
+            <a href="mailto:contact@evasion.com">
+                contact@evasion.com
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
